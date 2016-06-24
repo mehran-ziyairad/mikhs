@@ -257,55 +257,55 @@ Persian: @IranSeed
 Realm Commands:
 
 !creategroup [name]
-Create a group
+ایجاد یک گروه
 
 !createrealm [name]
-Create a realm
+ایجاد قلمرو
 
 !setname [name]
-Set realm name
+تنظیم نام قلمرو
 
 !setabout [group_id] [text]
-Set a group's about text
+تنظیم درباره گروه
 
 !setrules [grupo_id] [text]
-Set a group's rules
+تنظیم قوانین یک گروه
 
 !lock [grupo_id] [setting]
-Lock a group's setting
+قفل کردن تنظیمات یک گروه
 
 !unlock [grupo_id] [setting]
-Unock a group's setting
+باز کردن قفل تنظیمات یک گروه
 
 !wholist
-Get a list of members in group/realm
+یک لیست از اعضای گروه / قلمرو
 
 !who
-Get a file of members in group/realm
+دریافت فایل از اعضای گروه / قلمرو
 
 !type
-Get group type
+نوع گروه
 
 !kill chat [grupo_id]
-Kick all memebers and delete group
+حذف چت های گروه
 
 !kill realm [realm_id]
-Kick all members and delete realm
+کیک کردن تمام ممبر ها و حذف گروه
 
 !addadmin [id|username]
-Promote an admin by id OR username *Sudo only
+ادکردن یک ادمین
 
 !removeadmin [id|username]
-Demote an admin by id OR username *Sudo only
+پاک کردن یک ادمین
 
 !list groups
-Get a list of all groups
+لیست تمام گروه ها
 
 !list realms
-Get a list of all realms
+لیست تمام قلمروها
 
 !log
-Get a logfile of current group or realm
+مطلع یک فایل تاریخچه ثبت گروه فعلی و یا قلمرو
 
 !broadcast [text]
 !broadcast Hello !
@@ -329,97 +329,97 @@ This command will send text to [group_id]
 Commands list :
 
 !kick [username|id]
-You can also do it by reply
+کیک کردن
 
 !ban [ username|id]
-You can also do it by reply
+بن کردن ( با ریپلای می شود)
 
 !unban [id]
-You can also do it by reply
+آن بن کردن
 
 !who
-Members list
+لیست افراد
 
 !modlist
-Moderators list
+لیست مدیر ها
 
 !promote [username]
-Promote someone
+مدیر کردن یک فرد (یوزرنیم)
 
 !demote [username]
-Demote someone
+پاک کردن یک مدیر (یوزرنیم)
 
 !kickme
-Will kick user
+کیک کردن شما
 
 !about
-Group description
+درباره گروه
 
 !setphoto
-Set and locks group photo
+تنظیم عکس گروه و قفل آن
 
 !setname [name]
-Set group name
+اسم گروه (اسم)
 
 !rules
-Group rules
+قوانین گروه
 
 !id
-Return group id or user id
+بازگشت شناسه گروه و یا شناسه کاربر
 
 !help
-Get commands list
+همین متن
 
 !lock [member|name|bots|leave] 
-Locks [member|name|bots|leaveing] 
+قفل کردن کد های بالا
 
 !unlock [member|name|bots|leave]
-Unlocks [member|name|bots|leaving]
+باز کردن قفل کد های بالا
 
 !set rules [text]
-Set [text] as rules
+تنظیم قوانین گروه
 
 !set about [text]
-Set [text] as about
+تنظیم درباره ی گروه
 
 !settings
-Returns group settings
+تنظیمات
 
 !newlink
-Create/revoke your group link
+ساخت لینک
 
 !link
-Returns group link
+نمایش لینک گروه
 
 !owner
-Returns group owner id
+صاحب گروه
 
 !setowner [id]
-Will set id as owner
+تنظیم مالک مجموعه (ریپلای می شود)
 
 !setflood [value]
-Set [value] as flood sensitivity
+تنظیم حساسیت گروه
 
 !stats
-Simple message statistics
+آمار
 
 !save [value] [text]
-Save [text] as [value]
+سیو کردن یک متن
 
 !get [value]
-Returns text of [value]
+نمایش متن سیو شده
 
 !clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
+پاک کردن {کد ها بالا}
 
 !res [username]
-Returns user id
+دریافت یوزر آی دی
 
 !log
-Will return group logs
+خواهد گروه سیاهههای مربوط بازگشت
 
 !banlist
-Will return group ban list
+افراد بن شده
 
 » U can use both "/" and "!" 
 
